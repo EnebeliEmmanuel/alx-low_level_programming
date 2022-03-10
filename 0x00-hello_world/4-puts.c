@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+\**
  * main - main block
  * Description: print text using puts
  * Return: 0
