@@ -1,29 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
- * Return: 0
- */
+  * main - Prints a hexadecimal string
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	char d = '0';
+	char c;
 
-	while (d <= '9')
-	{
-		putchar(d);
-		d++;
-	}
-
-	char c = 'a';
-
-	while (c <= 'f')
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
-		c++;
+	}
+
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
 	}
 
 	putchar('\n');
+
 	return (0);
 }
