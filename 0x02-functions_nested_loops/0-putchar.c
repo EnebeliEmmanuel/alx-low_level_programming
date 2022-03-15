@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <style.pl>
+#include <doc.pl> 
 /**
  * main - prints _putchar
  *
