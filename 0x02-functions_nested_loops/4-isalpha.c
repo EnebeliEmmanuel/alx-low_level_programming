@@ -1,5 +1,4 @@
-
-#include "main.h" 
+#include "main.h"
 
 /**
  * _isalpha - check the code for Holberton School students.
